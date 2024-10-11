@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Potensi Energi Baru Terbarukan</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .legends1 {
+            color: #fff5f0;
+        }
+
+        .legends2 {
+            color: #fcbea5;
+        }
+
+        .legends3 {
+            color: #fb7050;
+        }
+
+        .legends4 {
+            color: #d32020;
+        }
+
+        .legends5 {
+            color: #67000d;
+        }
+
+        .legends6 {
+            background-color: #67000d;
+        }
+
+        .legenda1 {
+            color: #e0ffd2;
+        }
+
+        .legenda2 {
+            color: #c9eac2;
+        }
+
+        .legenda3 {
+            color: #7bc77c;
+        }
+
+        .legenda4 {
+            color: #2a924b;
+        }
+
+        .legenda5 {
+            color: #00441b;
+        }
+
+        .legenda6 {
+            background-color: #00441b;
+        }
+
+        .legendo1 {
+            color: #ddeefe;
+        }
+
+        .legendo2 {
+            color: #c8dcf0;
+        }
+
+        .legendo3 {
+            color: #73b2d8;
+        }
+
+        .legendo4 {
+            color: #2979b9;
+        }
+
+        .legendo5 {
+            color: #08306b;
+        }
+
+        .legendo6 {
+            background-color: #08306b;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0"><i class="fa fa-tachometer-alt me-2"></i>&nbsp;Dashboard</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pemetaan</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="#surya" class="dropdown-item">Potensi Energi Surya</a>
+                            <a href="#angin" class="dropdown-item">Potensi Energi Angin</a>
+                            <a href="#ombak" class="dropdown-item">Potensi Energi Ombak</a>
+                            <a href="#hybrid" class="dropdown-item">Potensi <i>Hybrid Energy</i></a>
+                        </div>
+                    </div>
+                    <a href="#tim" class="nav-item nav-link">Tentang Kami&nbsp;&nbsp;</a>
+                </div>
+                <a href="index.html" class="btn btn-primary py-2 px-4 ms-3">SUMATERA</a>
+            </div>
+        </nav>
+
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Dari Potensi Menjadi
+                                Realisasi</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Energi Baru Terbarukan</h1>
+                            <a class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">
+                                Geser ke Bawah <br>
+                                <i class="fa fa-chevron-down animated bounce infinite"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Pemetaan</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Potensi <br> Energi Surya</h1>
+                            <a href="quote.html"
+                                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Peta</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Pemetaan</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Potensi <br> Energi Angin</h1>
+                            <a href="quote.html"
+                                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Peta</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Pemetaan</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Potensi <br> Energi Ombak</h1>
+                            <a href="quote.html"
+                                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Peta</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Pemetaan</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Potensi <br> <i>Hybrid Energy</i>
+                            </h1>
+                            <a href="quote.html"
+                                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Peta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Navbar & Carousel End -->
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-users text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Potensi Energi Surya</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">1607</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Potensi Energi Angin</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">115</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-award text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Potensi Energi Ombak</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">196</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts Start -->
+
+    <!-- Potensi Surya Start -->
+    <div id="surya" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">PEMETAAN</h5>
+                        <h1 class="mb-0">Potensi Energi Surya</h1>
+                    </div>
+                    <p class="mb-4"> Kecamatan dengan potensi energi surya yang sangat tinggi didominasi
+                        oleh wilayah di bagian tengah dan selatan Sumatera, yang disebabkan oleh intensitas
+                        radiasi matahari yang lebih tinggi di wilayah ini. Sementara itu, wilayah utara
+                        menunjukkan potensi yang relatif lebih rendah, hal ini karena faktor meteorologis seperti
+                        peningkatan tutupan awan atau curah hujan yang lebih tinggi. Meskipun demikian,
+                        terdapat beberapa wilayah di Riau yang menunjukkan potensi sangat tinggi.</p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legends5"></i>Sangat Tinggi</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legends4"></i>Tinggi</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legends3"></i>Sedang</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legends2"></i>Rendah</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legends1"></i>Sangat Rendah</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <iframe src="maps/surya/index.html" width="100%" height="500px"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Potensi Surya End -->
+
+    <!-- Potensi Angin Start -->
+    <div id="angin" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">PEMETAAN</h5>
+                        <h1 class="mb-0">Potensi Energi Angin</h1>
+                    </div>
+                    <p class="mb-4"> Potensi pengembangan energi angin
+                        menunjukkan hasil yang bagus pada wilayah sumatera bagian tenggara. Selain itu, di
+                        wilayah ujung utara juga memperlihatkan potensi pengembangan yang baik.
+                        Area pesisir Sumatera, terutama di bagian barat dan timur, menunjukkan potensi
+                        energi angin yang tinggi hingga sangat tinggi. Meskipun tidak terlihat secara eksplisit, wilayah
+                        yang berada di dekat
+                        pegunungan Bukit Barisan juga cenderung memiliki potensi angin yang signifikan. </p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legenda5"></i>Sangat Tinggi</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legenda4"></i>Tinggi</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legenda3"></i>Sedang</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legenda2"></i>Rendah</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legenda1"></i>Sangat Rendah</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <iframe src="maps/angin/index.html" width="100%" height="500px"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Potensi Angin End -->
+
+    <!-- Potensi Ombak Start -->
+    <div id="ombak" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">PEMETAAN</h5>
+                        <h1 class="mb-0">Potensi Energi Ombak</h1>
+                    </div>
+                    <p class="mb-4"> Berdasarkan peta yang menunjukkan potensi energi ombak di Pulau Sumatera,
+                        terlihat bahwa wilayah pesisir barat Sumatera memiliki potensi energi ombak yang sangat
+                        tinggi. Daerah-daerah ini, termasuk bagian barat dari Aceh, Sumatera Barat, dan
+                        Bengkulu, ditandai dengan warna yang lebih gelap. Sementara itu, potensi energi ombak menurun di
+                        daerah
+                        pesisir timur dan tengah pulau.</p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legendo5"></i>Sangat Tinggi</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legendo4"></i>Tinggi</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legendo3"></i>Sedang</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legendo2"></i>Rendah</h5>
+                            <h5 class="mb-2"><i class="fa fa-square me-3 legendo1"></i>Sangat Rendah</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <iframe src="maps/ombak/index.html" width="100%" height="500px"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Potensi Ombak End -->
+
+    <!-- Hybrid Energy Start -->
+    <div id="hybrid" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">PEMETAAN</h5>
+                <h1 class="mb-0">Potensi <i>Hybrid Energy</i></h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-8  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <iframe src="maps/hybrid/index.html" width="100%" height="500px"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="rounded d-flex align-items-center justify-content-center mb-3 legends6"
+                                style="width: 55px; height: 55px;">
+                                <i class="fa fa-sun text-white"></i>
+                            </div>
+                            <h4>Klaster 1</h4>
+                            <p class="mb-0"> Potensi Energi Surya yang Tinggi</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="rounded d-flex align-items-center justify-content-center mb-3 legenda6"
+                                style="width: 55px; height: 55px;">
+                                <i class="fa fa-wind text-white"></i>
+                            </div>
+                            <h4>Klaster 2</h4>
+                            <p class="mb-0"> Potensi Energi Angin yang Tinggi</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="rounded d-flex align-items-center justify-content-center mb-3 legendo6"
+                                style="width: 55px; height: 55px;">
+                                <i class="fa fa-water text-white"></i>
+                            </div>
+                            <h4>Klaster 3</h4>
+                            <p class="mb-0"> Potensi Energi Ombak yang Tinggi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hybrid Energy Start -->
+
+    <!-- Team Start -->
+    <div id="tim" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Tentang Kami</h5>
+                <h1 class="mb-0">Tim Penulisan</h1>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                        class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                        class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                        class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                        class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Suryo Adi Rakhmawan</h4>
+                            <p class="text-uppercase m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                        class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                        class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                        class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                        class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">I Nyoman Setiawan</h4>
+                            <p class="text-uppercase m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5 mb-5">
+            <div class="bg-white text-center">
+                <img src="img/vendor-1.png" alt="Vendor" class="img-fluid" style="max-width: 50%; height: auto;">
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">2024</a>. All
+                            Rights Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </p>
+                        .&nbsp;Distributed By: <a class="border-bottom" href="https://themewagon.com"
+                            target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
