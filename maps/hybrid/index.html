@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet-search.css">
+        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
         <style>
         html, body, #map {
             width: 100%;
@@ -34,6 +35,7 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
+        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
         <script src="js/leaflet-search.js"></script>
         <script src="data/Klaster_0.js"></script>
         <script>
@@ -54,7 +56,7 @@
             highlightLayer.openPopup();
         }
         var map = L.map('map', {
-            zoomControl:false, maxZoom:28, minZoom:1
+            zoomControl:false, maxZoom:28, minZoom:6
         }).fitBounds([[-6.603532787890964,94.65695695182508],[6.511904552891048,109.51779469917504]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -192,6 +194,16 @@
         });
         bounds_group.addLayer(layer_Klaster_0);
         map.addLayer(layer_Klaster_0);
+        var osmGeocoder = new L.Control.Geocoder({
+            collapsed: true,
+            position: 'topleft',
+            text: 'Search',
+            title: 'Testing'
+        }).addTo(map);
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .className += ' fa fa-search';
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .title += 'Search for a place';
         setBounds();
         map.addControl(new L.Control.Search({
             layer: layer_Klaster_0,
